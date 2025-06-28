@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Realtime Transcription</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Realtime Transcription</h1>
+      <div id="finalContainer"></div>
+      <div id="partialText"></div>
+      <button id="startStopBtn">Start Recording</button>
+      <div id="status">Status: Idle</div>
+    </div>
+
+    <div id="settingsWidget">
+      <h3>Settings</h3>
+      <label
+        >VAD Threshold:
+        <input type="number" step="0.001" id="vadThresholdInput" value="0.015"
+      /></label>
+      <label
+        >Hangover Frames: <input type="number" id="hangoverInput" value="5"
+      /></label>
+      <button id="applySettings">Apply</button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

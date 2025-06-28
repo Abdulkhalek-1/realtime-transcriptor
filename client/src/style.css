@@ -1,0 +1,112 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+#container {
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  box-sizing: border-box;
+  direction: ltr;
+  text-align: left;
+}
+h1 {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #1a73e8;
+  margin-bottom: 15px;
+}
+#finalText {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  min-height: 4.5em;
+  color: #111;
+}
+#partialText {
+  font-size: 1.1rem;
+  color: #888;
+  margin-top: 10px;
+  min-height: 2em;
+  font-style: italic;
+  transition: opacity 0.3s ease;
+}
+#status {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+button {
+  margin-top: 25px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+button:hover {
+  background: #155ab6;
+}
+
+/* finalContainer style */
+#finalContainer {
+  max-height: 300px;
+  overflow: auto;
+}
+
+/* settings style */
+#settingsWidget {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  width: 220px;
+  font-size: 0.9rem;
+}
+#settingsWidget h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #1a73e8;
+}
+#settingsWidget label {
+  display: block;
+  margin-bottom: 10px;
+}
+#settingsWidget input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+#settingsWidget button {
+  margin-top: 10px;
+  width: 100%;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#settingsWidget button:hover {
+  background: #155ab6;
+}

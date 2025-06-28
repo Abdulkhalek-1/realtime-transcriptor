@@ -1,0 +1,12 @@
+[project]
+name = "realtime-transcriptor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flet[all]==0.28.3",
+    "soundfile>=0.13.1",
+    "vosk>=0.3.45",
+    "websockets>=15.0.1",
+]
