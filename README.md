@@ -49,14 +49,17 @@ uv sync
 
 Models are **not included** due to their size. Download a suitable model for your language from the official Vosk models page:
 
-* **Arabic (small):**
-  [https://alphacephei.com/vosk/models/vosk-model-small-ar-0.22.zip](https://alphacephei.com/vosk/models/vosk-model-small-ar-0.22.zip)
+* **Arabic:**
+  [https://alphacephei.com/vosk/models/vosk-model-ar-0.22-linto-1.1.0.zip](https://alphacephei.com/vosk/models/vosk-model-ar-0.22-linto-1.1.0.zip)
 
 * **English (small):**
   [https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip](https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip)
 
 * **English (large, more accurate):**
   [https://alphacephei.com/vosk/models/vosk-model-en-us-0.42-gigaspeech.zip](https://alphacephei.com/vosk/models/vosk-model-en-us-0.42-gigaspeech.zip)
+
+ * **All Models:**
+  [https://alphacephei.com/vosk/models](https://alphacephei.com/vosk/models)
 
 After downloading, extract the model zip to a folder named `model` inside your project root:
 
